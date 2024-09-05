@@ -241,10 +241,24 @@
                         <label class="custom-input__label" for="phone-number">E-mail</label>
                         <input class="custom-input__field custom-input__email" type="text" id="phone-number" name="phone-number" placeholder="">
                       </div>
-                      <label class="custom-input__label" for="phone-number">Сообщение</label>
-                      <textarea  name="commentary" id="commentary"></textarea>
                     </div>
+                    <div class="custom-input__data-submit">
+                      <div class="custom-input__data-user">
+                        <label class="custom-input__label" for="phone-number">Сообщение</label>
+                        <textarea class="custom-input__commentary" name="commentary" id="commentary"></textarea>
+                      </div>
+                      <div class="custom-input__data-user custom-input__data-user--checkbox">
+                        <input class="custom-input__checkbox" type="checkbox" name="checkbox" id="checkbox">
+                        <label class="custom-input__checkbox-label" for="checkbox">Я даю согласие на обработку моих персональных данных согласно <a href="#" class="custom-input__checkbox-link">политике конфиденциальности</a></label>
+                      </div>
+                      <button class="custom-input__button-submit" type="submit" disabled>Отправить</button>
+                    </div>
+                    
                 </fieldset>
+                <div class="custom-input__data-send">
+                  <span class="custom-input__data-send-message">Отправлено</span>
+                  <span class="custom-input__data-send-time">Закроется через 3 минуты</span>
+                </div>
               </form>
             </div>
             </button>
