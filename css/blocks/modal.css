@@ -37,6 +37,7 @@
 
 /* Плашку с успешной отправкой спозиционируй от modal__content */
 .modal__content {
+	display: flex;
 	position: relative;
 	width: 100%;
 	max-width: 1200px;
@@ -44,7 +45,7 @@
 	background-color: #FFFFFF;
 }
 
-.modal__content-button-close {
+.close-modal__button {
 	width: 80px;
 	height: 80px;
 	border-radius: 50%;
@@ -55,8 +56,47 @@
 	top: 15px;
 }
 
-.modal__content-button-close-icon {
+.close-modal__button-icon {
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	top: 50%; 
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.custom-input {
 	display: flex;
-	align-items: center;
 	justify-content: center;
+	align-items: center;
+	margin: auto;
+	height: 100%;
+}
+
+.custom-input__group-contacts {
+	color: black;
+}
+
+.custom-input__group {
+	border: none;
+}
+
+.custom-input__number {
+	border: none;
+	border-bottom: 1px solid#C8C8CA;
+}
+
+.custom-input__number-label {
+	color: black;
+}
+
+.custom-input__data {
+	display: flex;
+	flex-direction: row;
+	gap: 60px;
+}
+
+.custom-input__data-user {
+	display: flex;
+	flex-direction: column;
 }

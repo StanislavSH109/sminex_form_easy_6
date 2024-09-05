@@ -215,12 +215,39 @@
       <div class="modal__wrapper">
         
         <div class="modal__content">
-          <button class="modal__content-button-close" type="button">
-            <svg class="modal__content-button-close-icon">
-              <use xlink:href="images/sprite.svg#icon-close"></use>
-            </svg>
-          </button>
-        </div>
+          <div class="container">
+            <div class="close-modal">
+              <button class="close-modal__button" type="button">
+                <svg class="close-modal__button-icon">
+                  <use xlink:href="images/sprite.svg#icon-close"></use>
+                </svg>
+            </div>
+            <div class="custom-input">
+              <form action="#" class="custom-input__form" method="POST">
+                <fieldset class="custom-input__group">
+                  <legend class="custom-input__group-contacts">
+                    Оставьте контакты - и мы с вами свяжемся
+                  </legend>
+                  <div class="custom-input__data">
+                      <div class="custom-input__data-user">
+                        <label class="custom-input__number-label" for="phone-number">Телефон *</label>
+                        <input class="custom-input__number" type="text" id="phone-number" name="phone-number" placeholder="+7 (XXX) XXX-XX-XX" required>
+                      </div>
+                      <div class="custom-input__data-user">
+                        <label class="custom-input__number-label" for="phone-number">Имя</label>
+                        <input class="custom-input__number" type="text" id="phone-number" name="phone-number" placeholder="">
+                      </div>
+                      <div class="custom-input__data-user">
+                        <label class="custom-input__number-label" for="phone-number">E-mail</label>
+                        <input class="custom-input__number" type="text" id="phone-number" name="phone-number" placeholder="">
+                      </div>
+                    </div>
+                </fieldset>
+              </form>
+            </div>
+            </button>
+                    </div>
+          </div>
       </div>
     </div>
   </body>
