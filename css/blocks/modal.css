@@ -74,20 +74,28 @@
 }
 
 .custom-input__group-contacts {
-	color: black;
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 36px;
+	color: #180000;
+	text-transform: uppercase;
 }
 
 .custom-input__group {
 	border: none;
 }
 
-.custom-input__number {
+.custom-input__field {
 	border: none;
 	border-bottom: 1px solid#C8C8CA;
+	padding: 10px;
 }
 
 .custom-input__number-label {
-	color: black;
+	font-size: 12px;
+	line-height: 14px;
+	font-weight: 400;
+	color: #99999E;
 }
 
 .custom-input__data {
