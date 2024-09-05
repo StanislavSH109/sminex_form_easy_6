@@ -54,6 +54,7 @@
 	position: absolute;
 	right: 15px;
 	top: 15px;
+	cursor: pointer;
 }
 
 .close-modal__button-icon {
@@ -79,6 +80,7 @@
 	line-height: 36px;
 	color: #180000;
 	text-transform: uppercase;
+	margin: 0 0 60px 0;
 }
 
 .custom-input__group {
@@ -88,10 +90,19 @@
 .custom-input__field {
 	border: none;
 	border-bottom: 1px solid#C8C8CA;
-	padding: 10px;
+	padding: 10px 0;
+	width: 280px;
+	height: 54px;
 }
 
-.custom-input__number-label {
+.custom-input__phone::placeholder {
+	font-size: 16px;
+	line-height: 20px;
+	font-weight: 400;
+	color: #99999E;
+}
+
+.custom-input__label {
 	font-size: 12px;
 	line-height: 14px;
 	font-weight: 400;
