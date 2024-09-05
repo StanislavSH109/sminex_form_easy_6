@@ -43,3 +43,20 @@
 	min-height: 660px;
 	background-color: #FFFFFF;
 }
+
+.modal__content-button-close {
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	border: none;
+	background-color: #3C52E6;
+	position: absolute;
+	right: 15px;
+	top: 15px;
+}
+
+.modal__content-button-close-icon {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
