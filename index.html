@@ -213,9 +213,7 @@
     <div class="modal modal--active">
       <div class="modal__wrapper"> 
         <div class="modal__content">
-              
               <form action="#" class="custom-input__form" method="POST">
-        
                   <h2 class="custom-input__group-contacts">
                     Оставьте контакты - и мы с вами свяжемся
                   </h2>
@@ -245,23 +243,19 @@
                         </label>
                       </div>
                       <button class="custom-input__button-submit" type="submit" disabled>Отправить</button>
-                    
-                    
                   </div>
               </form>
-              
-              <button class="close-modal__button" type="button"></button>
+              <button class="close-modal__button" type="button" aria-label="Закрыть форму">
                 <svg class="close-modal__button-icon">
                   <use xlink:href="images/sprite.svg#icon-close"></use>
                 </svg>
               </button>
-
               <div class="custom-input__data-send">
                 <span class="custom-input__data-send-message">Отправлено</span>
-                <span class="custom-input__data-send-time"> 
                   <svg class="custom-input__data-icon-watch">
                   <use xlink:href="images/sprite.svg#icon-watch"></use>
-                </svg>Закроется через 3 секунды</span>
+                </svg>
+                <span class="custom-input__data-send-time">Закроется через 3 секунды</span>
               </div>
           </div>
       </div>

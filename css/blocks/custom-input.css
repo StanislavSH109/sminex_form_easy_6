@@ -1,0 +1,171 @@
+.custom-input {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: auto;
+	height: 100%;
+}
+
+.custom-input__group-contacts {
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 36px;
+	color: #180000;
+	text-transform: uppercase;
+	margin: 0 0 60px 0;
+}
+
+.custom-input__group {
+	border: none;
+}
+
+.custom-input__data {
+	margin:  0 0 60px 0;
+}
+
+.custom-input__field {
+	border: none;
+	border-bottom: 1px solid#C8C8CA;
+	padding: 10px 2px;
+	width: 280px;
+	height: 54px;
+}
+
+.custom-input__phone::placeholder {
+	font-size: 16px;
+	line-height: 20px;
+	font-weight: 400;
+	color: #99999E;
+}
+
+.custom-input__label {
+	font-size: 12px;
+	line-height: 14px;
+	font-weight: 400;
+	color: #99999E;
+}
+
+.custom-input__data {
+	display: flex;
+	flex-direction: row;
+	gap: 60px;
+}
+
+.custom-input__data-user {
+	display: flex;
+	flex-direction: column;
+}
+
+.custom-input__data-submit {
+	display: flex;
+	gap: 15px;
+}
+
+.custom-input__commentary {
+	border: none;
+	border-bottom: 1px solid #C8C8CA;
+	width: 460px;
+}
+
+.custom-input__checkbox {
+	position: absolute;
+	border: 0;
+	overflow: hidden;
+	clip: rect(0 0 0 0);
+	clip-path: inset(100%);
+}
+
+
+.custom-input__checkbox-label {
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 14px;
+	color: #99999E;
+	width: 250px;
+	position: relative;
+	user-select: none;
+	cursor: pointer;
+	padding: 0 0 0 35px;
+}
+
+
+.custom-input__checkbox-label::before {
+	content: "";
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	border: 1px solid #2A4AE5;
+	top: 50%;
+	transform: translateY(-50%);
+	left: 0;
+}
+
+.custom-input__checkbox-label-rectangle {
+	width: 12px;
+	height: 12px;
+	position: absolute;
+	left: 4px;
+	top: 50%;
+	transform: translateY(-50%);
+	background-color: #3C52E6;
+	visibility: hidden;
+}
+
+.custom-input__checkbox:checked +
+.custom-input__checkbox-label .custom-input__checkbox-label-rectangle {
+	display: block;
+}
+
+.custom-input__checkbox-link {
+	color: #3C52E6;
+}
+
+.custom-input__data-user--checkbox {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 11px;
+}
+
+.custom-input__button-submit {
+	text-align: center;
+	border: none;
+	background-color: rgba(60, 82, 230, 0.5);
+	color: #FFFFFF;
+	width: 200px;
+	padding: 20px;
+	cursor: pointer;
+}
+
+.custom-input__data-send {
+	position: absolute;
+	left: 50%;
+	bottom: 50px;
+	transform: translate(-50%);
+	color: #FFFFFF;
+	background-color: #3C52E6;
+	max-width: 260px;
+	padding: 16px 40px;
+	text-align: center;
+}
+
+.custom-input__data-send-message {
+	font-size: 24px;
+	line-height: 36px;
+	text-transform: uppercase;
+}
+
+.custom-input__data-send-time {
+	display: flex;
+	align-items: center;
+	gap: 5px;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 14px;
+	color: #FFFFFF;
+}
+
+.custom-input__data-icon-watch {
+	width: 17px;
+	height: 17px;
+}
