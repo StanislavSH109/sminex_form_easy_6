@@ -45,27 +45,6 @@
 	background-color: #FFFFFF;
 }
 
-.modal__close-button {
-	width: 80px;
-	height: 80px;
-	border-radius: 50%;
-	border: none;
-	background-color: #3C52E6;
-	position: absolute;
-	right: 15px;
-	top: 15px;
-	cursor: pointer;
-}
-
-.modal__close-button-icon {
-	width: 20px;
-	height: 20px;
-	position: absolute;
-	top: 50%; 
-	left: 50%;
-	transform: translate(-50%, -50%);
-}
-
 .modal__title {
 	font-size: 24px;
 	font-weight: 400;
@@ -75,7 +54,8 @@
 	margin: 0 0 60px 0;
 }
 
-.modal-content__send {
+
+.modal__content-send {
 	position: absolute;
 	left: 50%;
 	bottom: 50px;
@@ -87,13 +67,13 @@
 	text-align: center;
 }
 
-.modal-content__send-message {
+.modal__content-send-message {
 	font-size: 24px;
 	line-height: 36px;
 	text-transform: uppercase;
 }
 
-.modal-content__send-time {
+.modal__content-send-time {
 	display: flex;
 	align-items: center;
 	gap: 5px;
@@ -103,7 +83,29 @@
 	color: #FFFFFF;
 }
 
-.modal-content__send-icon-watchwatch {
+.modal__content-send-icon-watch {
 	width: 17px;
 	height: 17px;
 }
+
+.modal__content-close-button {
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	border: none;
+	background-color: #3C52E6;
+	position: absolute;
+	right: 15px;
+	top: 15px;
+	cursor: pointer;
+}
+
+.modal__content-close-button-icon {
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	top: 50%; 
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
