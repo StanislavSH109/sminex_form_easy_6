@@ -23,7 +23,7 @@
 	margin:  0 0 60px 0;
 }
 
-.custom-input__field {
+.form__data-input-phone {
 	border: none;
 	border-bottom: 1px solid#C8C8CA;
 	padding: 10px 2px;
@@ -38,7 +38,7 @@
 	color: #99999E;
 }
 
-.custom-input__label {
+.form__data-input-label-phone {
 	font-size: 12px;
 	line-height: 14px;
 	font-weight: 400;
