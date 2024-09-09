@@ -16,7 +16,7 @@
 .modal::after {
 	content: "";
 	z-index: -1;
-	position: absolute;
+	position: abso	lute;
 	top: 0;
 	left: 0;
 	width: 100%;
@@ -45,7 +45,7 @@
 	background-color: #FFFFFF;
 }
 
-.close-modal__button {
+.modal__close-button {
 	width: 80px;
 	height: 80px;
 	border-radius: 50%;
@@ -57,7 +57,7 @@
 	cursor: pointer;
 }
 
-.close-modal__button-icon {
+.modal__close-button-icon {
 	width: 20px;
 	height: 20px;
 	position: absolute;
