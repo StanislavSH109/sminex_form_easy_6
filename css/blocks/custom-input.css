@@ -49,7 +49,7 @@
 	width: 460px;
 }
 
-.custom-input__checkbox {
+.form__data-checkbox {
 	position: absolute;
 	border: 0;
 	overflow: hidden;
@@ -58,7 +58,7 @@
 }
 
 
-.custom-input__checkbox-label {
+.form__data-checkbox-label {
 	font-size: 12px;
 	font-weight: 400;
 	line-height: 14px;
@@ -93,7 +93,7 @@
 	visibility: hidden;
 }
 
-.custom-input__checkbox-link {
+.form__data-checkbox-link {
 	color: #3C52E6;
 }
 
@@ -104,7 +104,7 @@
 	gap: 11px;
 }
 
-.custom-input__button-submit {
+.form__data-input-submit {
 	text-align: center;
 	border: none;
 	background-color: rgba(60, 82, 230, 0.5);
@@ -114,7 +114,7 @@
 	cursor: pointer;
 }
 
-.custom-input__data-send {
+.modal-content__send {
 	position: absolute;
 	left: 50%;
 	bottom: 50px;
@@ -126,13 +126,13 @@
 	text-align: center;
 }
 
-.custom-input__data-send-message {
+.modal-content__send-message {
 	font-size: 24px;
 	line-height: 36px;
 	text-transform: uppercase;
 }
 
-.custom-input__data-send-time {
+.modal-content__send-time {
 	display: flex;
 	align-items: center;
 	gap: 5px;
@@ -142,7 +142,7 @@
 	color: #FFFFFF;
 }
 
-.custom-input__data-icon-watch {
+.modal-content__send-icon-watchwatch {
 	width: 17px;
 	height: 17px;
 }
