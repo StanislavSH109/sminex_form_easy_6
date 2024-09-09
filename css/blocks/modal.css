@@ -37,7 +37,6 @@
 
 /* Плашку с успешной отправкой спозиционируй от modal__content */
 .modal__content {
-	display: flex;
 	position: relative;
 	width: 100%;
 	max-width: 1200px;
