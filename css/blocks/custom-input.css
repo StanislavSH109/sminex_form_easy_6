@@ -23,7 +23,7 @@
 	margin:  0 0 60px 0;
 }
 
-.form__data-input-phone {
+.form__data-input {
 	border: none;
 	border-bottom: 1px solid#C8C8CA;
 	padding: 10px 2px;
@@ -31,7 +31,7 @@
 	height: 54px;
 }
 
-.custom-input__phone::placeholder {
+.form__data-input-phone::placeholder {
 	font-size: 16px;
 	line-height: 20px;
 	font-weight: 400;
