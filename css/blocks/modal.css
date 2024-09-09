@@ -74,3 +74,36 @@
 	text-transform: uppercase;
 	margin: 0 0 60px 0;
 }
+
+.modal-content__send {
+	position: absolute;
+	left: 50%;
+	bottom: 50px;
+	transform: translate(-50%);
+	color: #FFFFFF;
+	background-color: #3C52E6;
+	max-width: 260px;
+	padding: 16px 40px;
+	text-align: center;
+}
+
+.modal-content__send-message {
+	font-size: 24px;
+	line-height: 36px;
+	text-transform: uppercase;
+}
+
+.modal-content__send-time {
+	display: flex;
+	align-items: center;
+	gap: 5px;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 14px;
+	color: #FFFFFF;
+}
+
+.modal-content__send-icon-watchwatch {
+	width: 17px;
+	height: 17px;
+}

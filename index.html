@@ -229,7 +229,7 @@
                         <input class="form__data-input form__data-input-email" type="email" id="email" name="email" placeholder="">
                       </div>
                   </div>
-                  <div>
+                  <div class="form__data">
                       <div class="form__data-input">
                         <label class="form__data-input-label-message" for="phone-number">Сообщение</label>
                         <textarea class="form__data-input-commentary" name="commentary" id="commentary"></textarea>
@@ -242,21 +242,20 @@
                       </div>
                       <button class="form__data-input-submit" type="submit" disabled>Отправить</button>
                   </div>
-              </form>
-              
-              <div class="modal__content-send">
-                <span class="modal__content-send-message">Отправлено</span>
-                  <svg class="modal__content-send-icon-watch">
-                  <use xlink:href="images/sprite.svg#icon-watch"></use>
-                </svg>
-                <span class="modal__content-send-time">Закроется через 3 секунды</span>
-              </div>
-              <button class="modal__content-close-button" type="button" aria-label="Закрыть форму"></button>
-                <svg class="modal__content-close-button-icon">
-                  <use xlink:href="images/sprite.svg#icon-close"></use>
-                </svg>
-              </button>
+          </form>
+          <div class="modal__content-send">
+            <span class="modal__content-send-message">Отправлено</span>
+              <svg class="modal__content-send-icon-watch">
+              <use xlink:href="images/sprite.svg#icon-watch"></use>
+            </svg>
+            <span class="modal__content-send-time">Закроется через 3 секунды</span>
           </div>
+          <button class="modal__content-close-button" type="button" aria-label="Закрыть форму"></button>
+            <svg class="modal__content-close-button-icon">
+              <use xlink:href="images/sprite.svg#icon-close"></use>
+            </svg>
+          </button>
+        </div>
       </div>
     </div>
   </body>
