@@ -51,7 +51,7 @@
 	gap: 60px;
 }
 
-.custom-input__data-user {
+.form__data-input {
 	display: flex;
 	flex-direction: column;
 }
