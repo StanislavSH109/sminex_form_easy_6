@@ -6,22 +6,25 @@
 }
 
 .form__data {
-	
-	flex-direction: row;
-	gap: 60px;
-	justify-content: center;
-	align-items: center;
-	margin: auto;
-	height: 100%;
-	margin:  0 0 60px 0;
+	display: grid;
+	width: 100%;
+	grid-template-columns: repeat(3, 1fr);
+}
+
+.form__data-block {
+	border-bottom: 1px solid#C8C8CA;
+	padding: 10px 2px;
+	width: 100%;
+	min-height: 54px;
+}
+
+.form__data-block-phone {
+	row-gap: 60px;
 }
 
 .form__data-input {
 	border: none;
-	border-bottom: 1px solid#C8C8CA;
-	padding: 10px 2px;
-	width: 280px;
-	height: 54px;
+	width: 100%;
 }
 
 .form__data-input-phone::placeholder {
