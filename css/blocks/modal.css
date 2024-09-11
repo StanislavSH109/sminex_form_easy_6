@@ -74,9 +74,12 @@
 	text-transform: uppercase;
 }
 
-.modal__content-send-time {
+.modal__content-send-elements {
 	display: flex;
-	align-items: center;
+	gap: 5px;
+}
+
+.modal__content-send-time {
 	gap: 5px;
 	font-size: 12px;
 	font-weight: 400;
@@ -87,6 +90,7 @@
 .modal__content-send-icon-watch {
 	width: 17px;
 	height: 17px;
+	
 }
 
 .modal__content-close-button {
