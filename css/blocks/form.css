@@ -9,17 +9,15 @@
 	display: grid;
 	width: 100%;
 	grid-template-columns: repeat(3, 1fr);
+	gap: 60px;
 }
 
 .form__data-block {
-	border-bottom: 1px solid#C8C8CA;
 	padding: 10px 2px;
 	width: 100%;
 	min-height: 54px;
-}
-
-.form__data-block-phone {
-	row-gap: 60px;
+	border-bottom: 1px solid#C8C8CA;
+	
 }
 
 .form__data-input {
@@ -32,6 +30,7 @@
 	line-height: 20px;
 	font-weight: 400;
 	color: #99999E;
+	padding: 10px 0;
 }
 
 .form__data-input-label-phone {
