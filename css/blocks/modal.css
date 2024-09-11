@@ -42,6 +42,8 @@
 	max-width: 1200px;
 	min-height: 660px;
 	background-color: #FFFFFF;
+	padding: 167px 120px;
+	margin: auto;
 }
 
 .modal__title {
