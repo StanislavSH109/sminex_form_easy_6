@@ -12,12 +12,17 @@
 	gap: 60px;
 }
 
+.form__data--second {
+	display: grid;
+	width: 100%;
+	grid-template-columns: (2, 1fr);
+}
+
 .form__data-block {
 	padding: 10px 2px;
 	width: 100%;
 	min-height: 54px;
 	border-bottom: 1px solid#C8C8CA;
-	
 }
 
 .form__data-input {
@@ -49,11 +54,15 @@
 
 .form__data-input-commentary {
 	border: none;
-	border-bottom: 1px solid #C8C8CA;
 	width: 460px;
 }
 
 .form__data-checkbox {
+	display: flex;
+	align-items: flex-end;
+}
+
+.form__data-checkbox-square {
 	position: absolute;
 	border: 0;
 	overflow: hidden;
@@ -101,7 +110,7 @@
 	color: #3C52E6;
 }
 
-.form__data-input--checkbox {
+.form__data--checkbox {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
@@ -109,6 +118,7 @@
 }
 
 .form__data-input-submit {
+	/* display: block; */
 	gap: 15px;
 	text-align: center;
 	border: none;
