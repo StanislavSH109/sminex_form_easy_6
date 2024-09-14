@@ -95,6 +95,22 @@
 	left: 0;
 }
 
+.form__data-checkbox-label::after {
+	content: "";
+	position: absolute;
+	top: 50%;
+	left: 4px;
+	display: none;
+	width: 12px;
+	height: 12px;
+	background-color: #3c52e6;
+	transform: translateY(-50%);
+}
+
+.form__data-checkbox-square:checked + .form__data-checkbox-label::after {
+	display: block;
+}
+
 .form__data-checkbox-label-rectangle {
 	width: 12px;
 	height: 12px;
@@ -118,7 +134,6 @@
 }
 
 .form__data-input-submit {
-	/* display: block; */
 	gap: 15px;
 	text-align: center;
 	border: none;
